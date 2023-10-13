@@ -1,0 +1,233 @@
+@media screen and (max-width: 768px){
+    .cont{
+        position: absolute;
+        margin-top: 15rem;
+        left: 8%;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: var(--bs-warning);
+    }
+    .commerce{
+        border-radius:50%;
+        width: 30%;
+        height: 140px;
+        position: relative;
+        left: 170px;
+    }
+    .cont .btn{
+        width: 35%;
+        height: 55px;
+        position: relative;
+        left: auto;
+      
+       
+    }
+    /* ---------portfolio-------- */
+    .card{
+        margin-left: 75px;
+    }
+
+    
+.modal-body img{
+    position: relative;
+    left: 50px;
+    width: 80%;
+}
+.btn{
+    width: 45%;
+    position: relative;
+    left: -105px;
+    
+}
+/* ------------team----------- */
+
+.img-t img{
+    width: 35%;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+}
+.img-t P{
+    margin-left: 150px;
+}
+
+.mere-icon-t .fa-brands{
+    position: relative;
+    left: 120px;
+    bottom: 10px;
+    padding-left: 10px;
+    padding-top: 9px;
+    font-size: 29px;
+    border-radius: 50%;
+}
+.img-t h3{
+    text-align: center;
+    margin-left: -120px;
+}
+/* ---------------contact-------------- */
+.form-group textarea{
+    margin-top: 2rem;
+    height: 210px;
+}
+
+/* ---------footer-------------- */
+
+
+
+.mere-footer{
+    display: block;
+    margin-left:  180px;
+   
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 560px){
+    .cont{
+        position: absolute;
+        margin-top: 15rem;
+        left: 15%;
+        top: 25px;
+    }
+    .cont .btn{
+        width: 65%;
+        height: 55px;
+        position: relative;
+        left: auto;   
+    }
+    .bg-contain{
+        width: 118%;
+    }
+    
+.btn{
+    width: 55%;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var(--bs-warning);
+}
+
+element.style {
+}
+.bg-dark {
+    background-color: #212529!important;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    width: 100%;
+}
+
+
+/* -----------services--------------- */
+.commerce{
+    position: relative;
+    left: 150px;
+}
+
+
+
+
+/* ------------------------portfolio-------------------- */
+
+#portfolio{
+  width: 118%;
+}
+
+.card{
+    position: relative;
+    left: -40px;
+}
+
+.modal-body img{
+    position: relative;
+    left: 30px;
+    width: 80%;
+}
+
+.btn{
+    width: 70%;
+    position: relative;
+    left: -40px;
+    
+}
+
+/* -----------------TEAM------------ */
+#team{
+    background: none;
+}
+
+
+.img-t img{
+    width: 35%;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+}
+.img-t P{
+    margin-left: 130px;
+}
+
+.mere-icon-t .fa-brands{
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+    padding-left: 10px;
+    padding-top: 9px;
+    font-size: 29px;
+    border-radius: 50%;
+}
+.img-t h3{
+    text-align: center;
+    margin-left: -50px;
+}
+/* -------contact---------- */
+#contact{
+   width: 118%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------footer--------- */
+
+.mere-footer{
+ display: block;
+ margin-left: 90px;
+
+}
+.icon{
+    padding-top: 4px;
+    font-size: 29px;
+    color: var(--bs-white);
+    background-color: #343a40;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+}
+
+
+}
