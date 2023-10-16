@@ -176,9 +176,64 @@ span{
 
 
 /* ------------------about----------------------------- */
-
-
-
+/* About */
+.about_img,
+.about_img2,
+.about_img3,
+.about_img4{
+    border: 8px solid gainsboro;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    background-image: url(img-tache8/about1\ \(1\).jpg);
+}
+.flex4 .about_img{
+    background-image: url(img-tache8/about2\ \(1\).jpg);
+    background-size: cover;
+}
+.about_img3{
+    background-image: url(img-tache8/about3\ \(1\).jpg);
+    background-size: cover;
+}
+.about_img4{
+    background-image: url(img-tache8/about4\ \(1\).jpg);
+    background-size: cover;
+}
+.borde_space{
+    border-left: 2px solid gainsboro;
+    height: 140px;
+    position: relative;
+    right: 118px;
+    top: 175px;
+}
+.flex3{
+    margin-left: -160px;
+}
+.flex4, .flex_3{
+    margin-top: 50px;
+}
+.flex4 .about_img, .about_img4{ 
+    margin-left: 290px;
+}
+.flex4 .borde_space{
+    border-left: 2px solid gainsboro;
+    height: 140px;
+    position: relative;
+    right: 412px;
+    top: 175px; 
+}
+.flex4 .about_text{
+    margin-left: 0px;
+}
+.about_img5{
+    border: 8px solid gainsboro;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-left: -35px;
+    background-color: #ffc800;
+    
+}
 
 
 
@@ -211,6 +266,11 @@ span{
     border-radius: 50%;
     gap: 40px;
 }
+/* -------clients---- */
+.img-clients{
+    position: relative;
+    left: 80px;
+}
 
 /* -------------contact--------- */
 #contact{
@@ -225,7 +285,17 @@ span{
     /* margin-bottom: 2rem; */
     height: 210px;
 }
-
+.btn-send button{
+  position: relative;
+  left: 450px;
+  width: 20%;
+  height: 70px;
+  border-radius: 15px;
+  background: var(--bs-warning);
+}
+.btn-send:hover{
+    opacity: 0.5;
+}
 
 
 
