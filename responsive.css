@@ -236,7 +236,7 @@
         left: auto;   
     }
     .bg-contain{
-        width: 118%;
+        width: auto;
     }
     
 .btn{
@@ -258,7 +258,7 @@
     z-index: 1030;
 }
 .navbar {
-    width: 100%;
+    width: auto;
 }
 
 
@@ -274,12 +274,12 @@
 /* ------------------------portfolio-------------------- */
 
 #portfolio{
-  width: 118%;
+  width: auto;
 }
 
 .card{
     position: relative;
-    left: -40px;
+    left: -58px;
 }
 
 .modal-body img{
@@ -386,7 +386,7 @@
 
 /* -------contact---------- */
 #contact{
-   width: 118%;
+   width: auto;
 }
 
 
