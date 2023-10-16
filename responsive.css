@@ -388,6 +388,10 @@
 #contact{
    width: auto;
 }
+.btn-send button{
+    position: relative;
+    left: 120px;
+}
 
 
 
